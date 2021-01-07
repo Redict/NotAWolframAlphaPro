@@ -44,4 +44,4 @@ export function wa_request(query, params=null) {
     return fetch(craft_signed_url(query))
 }
 
-export let req = q => wa_request(`input=${encodeData(q)}&podstate=Step-by-step&scantime=20.0&podstate=Step-by-step+solution&format=image&ip=8.8.8.8`);
+export let req = q => wa_request(`input=${encodeData(q)}&podstate=Step-by-step&scantime=20.0&podstate=Step-by-step%20solution&format=image&ip=8.8.8.8`);
