@@ -1,0 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+* { box-sizing: border-box; }
+html { font: 400 10px/15px 'PT Sans', sans-serif }
+body { margin: 0; }
